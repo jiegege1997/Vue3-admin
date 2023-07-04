@@ -1,14 +1,14 @@
 <template>
   <div>
-    <router-view></router-view>
+    this is home
+
   </div>
 </template>
 
 <script setup lang="ts">
 
-
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 
 </style>
