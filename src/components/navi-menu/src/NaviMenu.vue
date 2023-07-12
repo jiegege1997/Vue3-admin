@@ -2,22 +2,17 @@
   <div class="navi-menu">
     <div class="logo">
       <img class="img" src="~@/assets/vue.svg" />
-      <span class="title">
-        Vue3 + TS
-      </span>
-
+      <span class="title"> Vue3 + TS </span>
     </div>
 
     <div class="menu">
-
       <el-menu
         default-active="2"
         class="el-menu-vertical"
         :collapse="collapse"
         :collapse-transition="false"
         :router="true"
-        >
-
+      >
         <el-sub-menu index="1">
           <template #title>
             <el-icon><location /></el-icon>
@@ -27,7 +22,6 @@
           <el-menu-item index="/main/user">用户管理</el-menu-item>
           <el-menu-item index="/main/role">角色管理</el-menu-item>
           <el-menu-item index="/main/menu">菜单管理</el-menu-item>
-
         </el-sub-menu>
 
         <el-sub-menu index="2">
@@ -37,23 +31,16 @@
           </template>
 
           <el-menu-item index="/main/goods">商品管理</el-menu-item>
-
-
         </el-sub-menu>
-
       </el-menu>
-
     </div>
-
   </div>
 </template>
 
 <script setup lang="ts">
-
 const props = defineProps<{
-  collapse: boolean
-}>()
-
+  collapse: boolean;
+}>();
 </script>
 
 <style lang="less" scoped>
@@ -83,7 +70,7 @@ const props = defineProps<{
 
   .menu {
     clear: both;
-    width:100%;
+    width: 100%;
   }
 }
 </style>

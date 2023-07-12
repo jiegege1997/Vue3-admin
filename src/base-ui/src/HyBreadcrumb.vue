@@ -15,15 +15,11 @@
 </template>
 
 <script setup lang="ts">
-
-import type { IBreadcrumb } from '../types'
+import type { IBreadcrumb } from "../types";
 
 const props = defineProps<{
-  breadcrumbs: Array<IBreadcrumb>
-}>()
-
+  breadcrumbs: Array<IBreadcrumb>;
+}>();
 </script>
 
-<style lang="less" scoped>
-
-</style>
+<style lang="less" scoped></style>

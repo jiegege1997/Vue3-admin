@@ -1,3 +1,3 @@
-import  PageAdd from './src/PageAdd.vue'
+import PageAdd from "./src/PageAdd.vue";
 
-export default PageAdd
+export default PageAdd;

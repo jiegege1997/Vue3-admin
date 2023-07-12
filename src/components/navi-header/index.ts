@@ -1,3 +1,3 @@
-import  NaviHeader from './src/NaviHeader.vue'
+import NaviHeader from "./src/NaviHeader.vue";
 
-export default NaviHeader
+export default NaviHeader;
